@@ -1,0 +1,29 @@
+.div1{
+    display: flex;
+}
+.img1{
+    width: 200px;
+    height: 150px;
+    padding: 20px 20px;
+}
+div{
+    margin: auto;
+   
+}
+.body{
+    
+    background-image: url(./picture/back.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+@media screen and (max-width-600) {
+   .div1{
+    display: inline-block;
+   }
+    
+}
+.img1:hover{
+    
+}
